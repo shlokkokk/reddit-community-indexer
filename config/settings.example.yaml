@@ -1,0 +1,39 @@
+subreddits:
+  - technology
+  - programming
+  - sysadmin
+  - webdev
+
+cooldown:
+  minimum_seconds: 60
+
+triggers:
+  - python
+  - javascript
+  - linux
+  - docker
+  - mdn
+  - man page
+  - documentation
+
+documentation:
+  python:
+    title: "Python documentation"
+    url: "https://docs.python.org/3/"
+  javascript:
+    title: "MDN Web Docs"
+    url: "https://developer.mozilla.org/"
+  linux:
+    title: "Linux man-pages"
+    url: "https://man7.org/linux/man-pages/"
+  docker:
+    title: "Docker documentation"
+    url: "https://docs.docker.com/"
+
+opt_out:
+  - "!optout"
+  - "!stop"
+
+blacklist:
+  - spam
+  - nsfw
